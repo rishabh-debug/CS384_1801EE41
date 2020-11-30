@@ -25,14 +25,26 @@ def divide(num1, num2):
 	
 def power(num1, num2):
 	count = 1
-	for i in range[0,num2]
-		count *= num1
-		return count
+    if num2 = 0:
+	    return 0
+	if type(count) == float:
+        for i in range(num2)
+            count = count * num1
+	        count = round(count,3)
+	else :
+		for i in range(num2)
+            count = count * num1
 
-def printAP(a,d,n)
-	AP = []
-	for i in range[0,n]
-	tn = [a + (n - 1) * d]
-	AP.append(tn)
-	return AP
+		    
+	return count
+
+
+
+
+#def printAP(a, d, n)
+ #   AP =[]
+#	for i in range[0,n]:
+ #    i = [a + (n - 1) * d]
+#	AP.append(tn)
+#	return AP
 

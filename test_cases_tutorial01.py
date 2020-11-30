@@ -1,4 +1,4 @@
-import tutorial_01 as A1
+import tutorial01 as A1
 
 actual_answers = [9, 12, 24, 3, 16]
 student_answers = []
@@ -15,7 +15,7 @@ student_answers.append(test_case_3)
 test_case_4 = A1.divide(12, 4)
 student_answers.append(test_case_4)
 
-test_case_5 = power(2, 4)
+test_case_5 = A1.power(2, 4)
 student_answers.append(test_case_5)
 
 
