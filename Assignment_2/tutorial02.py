@@ -2,19 +2,23 @@
 
 # Function to compute mean
 def mean(first_list):
-    # mean Logic 
+    mean_value = sum(first_list)/len(first_list)
     return mean_value
 
 
 # Function to compute median. You cant use Python functions
 def median(first_list):
-    # median Logic
+    first_list.sort()
+    mid = len(test_list) // 2
+    median_value = (test_list[mid] + test_list[~mid]) / 2
     return median_value
 
 
 # Function to compute Standard deviation. You cant use Python functions
 def standard_deviation(first_list):
-    # Standard deviation Logic
+    mean = sum(test_list) / len(test_list)
+    variance = sum([((x - mean) ** 2) for x in test_list]) / len(test_list)
+    standard_deviation_value = variance ** 0.5
     return standard_deviation_value
 
 
